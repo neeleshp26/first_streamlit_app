@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 import requests
+import snowfalke.connector
 
 streamlit.title('My friends are happy')
 streamlit.header('🍞 Dinner menu')
