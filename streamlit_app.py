@@ -32,6 +32,8 @@ my_data_row_all = my_cur.fetchall()
 streamlit.header("Fruit List")
 streamlit.dataframe(my_data_row_all)
 
+fruit_choice = streamlit.text_input('What fruit would you like to add?','kiwi')
+streamlit.write('The user entered ', fruit_choice)
 
 
 
